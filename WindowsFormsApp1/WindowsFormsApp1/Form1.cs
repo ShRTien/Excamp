@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void btnLogin_click(object sender, EventArgs e)
+        private void btnloggin_Click(object sender, EventArgs e)
         {
             String username = "admin";
             String password = "admin";
@@ -27,8 +27,10 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Login Succsess", "Login", MessageBoxButtons.OK);
+                MessageBox.Show("Faile Succsess", "Login", MessageBoxButtons.OK);
             }
         }
+
+     
     }
 }
