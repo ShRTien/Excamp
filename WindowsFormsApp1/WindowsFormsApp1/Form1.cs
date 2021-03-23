@@ -17,9 +17,18 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnLogin_click(object sender, EventArgs e)
         {
-
+            String username = "admin";
+            String password = "admin";
+            if(txtPassWord.Text == username && txtPassWord.Text == password)
+            {
+                MessageBox.Show("Login Succsess", "Login", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Login Succsess", "Login", MessageBoxButtons.OK);
+            }
         }
     }
 }
