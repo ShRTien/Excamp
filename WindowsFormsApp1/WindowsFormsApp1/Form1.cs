@@ -24,6 +24,8 @@ namespace WindowsFormsApp1
             if(txtPassWord.Text == username && txtPassWord.Text == password)
             {
                 MessageBox.Show("Login Succsess", "Login", MessageBoxButtons.OK);
+                Form2 f = new Form2();
+                f.Show();
             }
             else
             {
@@ -31,6 +33,9 @@ namespace WindowsFormsApp1
             }
         }
 
-     
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
